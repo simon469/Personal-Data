@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignmet 2</title>
+</head>
+<body>
+<form>
+<fieldset style="background-color: red;">
+<legend style="background-color: darkblue">Personal Data</legend> <br>
+    <fieldset style="background-color: yellow;">
+        <br>
+        <legend style="background-color: rgb(59, 159, 167); padding: 30px 6px" >Your Name</legend>
+        <table>
+            <tr>
+                <td><label for="fname">First name</label></td>
+                <td>:</td>
+                <td><input type="text" id="fname" name="firstName" placeholder="ex ahmed"></td>
+            </tr>
+            <tr>
+                <td><label for="secname">Second name</label></td>
+                <td>:</td>
+                <td><input type="text" id="secname" name="secondName" placeholder="ex bahnasy"></td>
+            </tr>
+        </table>
+    </fieldset> <br>
+<table>
+    <tr>
+        <td><label for="pnum">your phone</label></td>
+        <td>:</td>
+        <td><input type="number"id="pnum" name="phoneNumber"></td>
+    </tr>
+    <tr>
+        <td><label for="email">Email</label></td>
+        <td>:</td>
+        <td><input type="email" id="email" name="email"></td>
+    </tr> 
+    <tr>
+        <td><label for="pass">Password</label></td>
+        <td>:</td>
+        <td><input type="password" id="pass" name="password"></td>
+    </tr> 
+    <tr>
+        <td><label for="repass">re-password</label></td>
+        <td>:</td>
+        <td><input type="password" id="repass" name="re-password"></td>
+    </tr> 
+    <br>
+</table> 
+<br> <br> <br>
+<table>
+    <tr>
+        <td><input type="radio" name="gender" value="male"></td>
+        <td><label for="male">Male</label></td>
+        
+    </tr>
+    <tr>
+        <td><input type="radio" name="gender" value="female"></td>
+        <td><label for="female">Female</label></td>
+    </tr> 
+</table>
+<br> <br> <br>
+<table>
+    <tr>
+        <td><input type="checkbox" id="status" name="status" value="student"></td>
+        <td><label for="status">Student</label></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" id="status" name="status" value="graduated"></td>
+        <td><label for="status">Graduated</label></td>
+    </tr>
+</table>
+<br> <br> <br>
+<table>
+    <tr>
+        <td >
+            <select name="faculty" id="faculty">
+            <option selected > AUC </option>
+            </select>
+        </td>
+    </tr>
+    <tr>        
+        <td>
+            <button>
+                <img src="images.png" alt="submit button" width="60px">
+            </button>
+        </td>
+    </tr>
+</table>
+</fieldset>
+</form>
+<br> <br>
+
+<select name="Options" id="Options">
+    <optgroup label="Group 1">
+        <option value="Option 1.1" selected>Option 1.1</option>
+    </optgroup>
+        
+    <optgroup label="Group 2">
+        <option value="Option 2.1"> Option 2.1</option>
+        <option value="Option 2.2"> Option 2.2</option>
+    </optgroup>
+        
+    <optgroup label="Group 3" disabled>
+        <option value="Option 3.1"> Option 3.1</option>
+        <option value="Option 3.2"> Option 3.2</option>
+        <option value="Option 3.3"> Option 3.3</option>
+    </optgroup>   
+</select>
+</body>
+</html>
